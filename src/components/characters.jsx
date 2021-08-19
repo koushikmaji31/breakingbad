@@ -5,7 +5,7 @@ import {Grid, GridListTileBar, Box} from '@material-ui/core';
 
 const Characters = ({data}) => {
     return(
-        <Box style = {{margin:200}}>
+        <Box style = {{margin:20}}>
             <Grid container spacing = {4}>
                 {
                     data.map(item =>(

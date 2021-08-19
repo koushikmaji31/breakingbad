@@ -4,9 +4,9 @@ import {Card , makeStyles , Tooltip, Typography} from "@material-ui/core";
 const useStyle = makeStyles({
     img : {
         height : 300,
-        width : '220px',
+        width : "100%",
         borderRadius : 5,
-        marginLeft : 50
+        
         
         
     }
